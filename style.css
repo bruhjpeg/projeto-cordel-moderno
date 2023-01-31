@@ -50,6 +50,10 @@ section {
   padding-left: 30px;
 }
 
+section p {
+  padding-bottom: 2em;
+}
+
 header a:hover,
 footer a:hover {
   text-decoration: underline;
@@ -63,11 +67,25 @@ footer a:hover {
 .imagem {
   color: white;
   background-color: rgb(145, 145, 252);
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.685);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .imagem p {
-  background-color: rgba(0, 0, 0, 0.24);
-  width: 400px;
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.637);
+}
+
+#img01 {
+  background-image: url(./assets/background001.jpg);
+  background-position: right center;
+}
+
+#img02 {
+  background-image: url(./assets/background002.jpg);
+  background-position: right center;
 }
 
 footer {
